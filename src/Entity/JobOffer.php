@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity(repositoryClass="App\Repository\JobOfferRepository")
  */
-final class JobOffer
+class JobOffer
 {
     const STATUS_PENDING_REVIEW = 'PENDING_REVIEW';
     const STATUS_APPROVED = 'APPROVED';
